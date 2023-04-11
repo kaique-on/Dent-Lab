@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background: rgb(212,229,254);
+background: linear-gradient(90deg, rgba(212,229,254,1) 0%, rgba(211,244,231,1) 100%);
+}
+nav {
+    width: 1585px;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+}
+nav h1 {
+    font-size: 24px;
+}
+#logoImagem {
+    width: 72px;
+    height: 72px;
+}
+#logoTexto {
+    color: black;
+}
+span {
+    color:var(--textoLogo);
+}
+.menu {
+    display: flex;
+    gap: 24px;
+}
+.login {
+    background-color: #008df4;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 900;
+    width: fit-content;
+    
+}
+a {
+    text-decoration: none;
+    color: #071e40;
+}
+#secaoCapa {
+    width: 1585px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#secaoCapa h1 {
+    font-size: 48px;
+    width: 475px;
+}
+#textoCapa {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    width: 350px;
+    display: inline;
+}
+#secaoCapa div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 116px;
+}
+#loginCapa {
+    background-color: #008df4;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 900;
+    display: inline;
+    width: fit-content;
+}
+#secaoCapa img {
+    width: 600px;
+    height: 600px;
+    margin-right: 40px;
+}

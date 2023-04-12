@@ -1,0 +1,35 @@
+#razoes {
+    width: 1585px;
+    margin: 180px auto auto auto;
+    display: flex;
+}
+#razoes img {
+    width: 500px;
+    margin-right: 300px;
+}
+#razoes div {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#span2 {
+    color: rgb(65, 212, 201);
+}
+#span3 {
+    color: #325b9c;
+}
+#span4 {
+    color: #0093fd;
+}
+#razoes span {
+    font-weight: 500;
+}
+#razoes h1 {
+    font-weight: 500;
+    font-size: 48px;
+}
+#razoes h6 {
+    font-size: 20px;
+    font-weight: 300;
+}

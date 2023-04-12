@@ -5,8 +5,60 @@
 #secaoVantagens img {
     width: 72px;
     height: 72px;
+    margin-top: -10px;
+    margin-bottom: 8px;
 }
 .card p {
     margin-top: 24px;
-    margin-bottom: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    width: 284px;
+    font-weight: 300;
+}
+.card h3 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    line-height: 19px;
+}
+.card__estilo1 {
+    background-color: #ff9021;
+    margin-top: -88px;
+    border-radius: 16px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.card__estilo2 {
+    background-color: #9156e7;
+    margin-top: -88px;
+    border-radius: 16px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.card__estilo3 {
+    background-color: #e8af35;
+    margin-top: -88px;
+    border-radius: 16px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    margin-top: 8px;
+    border-radius: 16px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    
 }

@@ -3,6 +3,10 @@
 @import "variaveis.css";
 @import "vantagens.css";
 @import "utils.css";
+@import "razoes.css";
+@import "servicos.css";
+@import "profissionais.css";
+@import "comentarios.css";
 
 * {
     margin: 0;

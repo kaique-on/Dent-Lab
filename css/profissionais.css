@@ -1,0 +1,26 @@
+#profissionais {
+    width: 1808px;
+    margin: auto;
+    display: flex;
+    background-color: #eff8ff;
+    align-items: center;
+    justify-content: center;
+}
+#profissionais div {
+    margin: 0px 113px
+}
+#profissionais img {
+    width: 400px;
+    margin: 0px 113px
+}
+#profissionais h1 {
+    font-weight: 500;
+    margin-bottom: 48px;
+    font-size: 48px;
+}
+#profissionais h3 {
+    font-size: 18px;
+    font-weight: 300;
+    width: 675px;
+    font-size: 20px;
+}

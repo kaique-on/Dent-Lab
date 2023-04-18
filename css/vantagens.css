@@ -62,3 +62,17 @@
     height: 200px;
     
 }
+
+@media (max-width: 950px) {
+    #secaoVantagens {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        gap: 125px;
+        align-items: center;
+        justify-content: center
+    }
+    .card__estilo1 {
+        margin-top: -50px;
+    }
+}

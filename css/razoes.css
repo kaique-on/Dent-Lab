@@ -1,11 +1,12 @@
 #razoes {
-    width: 1585px;
     margin: 180px auto auto auto;
     display: flex;
+    justify-content: space-between;
+    width: 1585px;
 }
 #razoes img {
     width: 500px;
-    margin-right: 300px;
+    height: 583px;
 }
 #razoes div {
     width: 600px;
@@ -32,4 +33,27 @@
 #razoes h6 {
     font-size: 20px;
     font-weight: 300;
+}
+
+@media (max-width: 1585px) {
+    #razoes {
+        margin: 180px 0px 0px 0px;
+        width: 100%;
+        display: flex;
+    }
+    #razoes img {
+        
+    }
+}
+
+@media (max-width: 875px) {
+    #razoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    #razoes img {
+    
+    }
 }

@@ -1,0 +1,34 @@
+.carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    background: rgba(239, 248, 254, 1);
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+    
+  }
+.img__carousel {
+    width: 92px;
+    height: 92px;
+    border-radius: 999px;
+  }
+  .flickity-viewport {
+    background-color: white;
+  }
+.carousel-cell h1 {
+  font-weight: 500;
+  font-size: 32px;
+}
+.carousel-cell p {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}

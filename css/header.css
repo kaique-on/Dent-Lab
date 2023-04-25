@@ -94,4 +94,41 @@ a {
     #secaoCapa {
         width: 100%;
     }
+    #secaoCapa img {
+        width: 100%;
+        height: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+    .menu {
+        display: none;
+        
+    }
+    hgroup {
+        margin-left: 10px;
+    }
+    #secaoCapa {
+        display: flex;
+        flex-direction: column;
+    }
+    #secaoCapa h1 {
+        font-weight: 500;
+        font-size: 36px;
+        width: 80%;
+    }
+    #secaoCapa img {
+        width: 100%;
+        height: 300px;
+    }
+    #secaoCapa div {
+        margin: 0px;
+    }
 }

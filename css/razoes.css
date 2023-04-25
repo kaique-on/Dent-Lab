@@ -41,19 +41,13 @@
         width: 100%;
         display: flex;
     }
-    #razoes img {
-        
-    }
 }
 
-@media (max-width: 875px) {
+@media (max-width: 950px) {
     #razoes {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
-    }
-    #razoes img {
-    
     }
 }

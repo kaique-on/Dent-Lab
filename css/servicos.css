@@ -1,22 +1,23 @@
 #servicos {
-    width: 1585px;
-    margin: auto;
+    width: auto;
 }
 #titulo__servicos {
     font-weight: 700;
     font-size: 48px;
     text-align: center;
+    width: 100%;
 }
 #subtitulo__servicos {
     text-align: center;
     font-size: 18px;
     font-weight: 300;
     margin-top: 24px;
+    width: 100%;
 }
 .horizontal {
     display: flex;
-    gap: 400px;
-    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
 }
 .card__servicos {
     width: 300px;
@@ -44,4 +45,30 @@
 .card__servicos h1 {
     font-weight: 500;
     font-size: 32px;
+}
+
+@media (max-width: 950px) {
+    #servicos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .horizontal {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        width: fit-content;
+        margin: auto;
+    }
+    #titulo__servicos {
+        width: 100%;
+        margin-top: 80px;
+        font-size: 36px;
+    }
+    #subtitulo__servicos {
+        width: 70%;
+        
+        margin: 12px 0px 10px 0px;
+    }
 }

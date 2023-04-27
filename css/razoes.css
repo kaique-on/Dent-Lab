@@ -50,4 +50,22 @@
         align-items: center;
         margin-top: 50px;
     }
+    #razoes img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #razoes div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        width: 90%;
+    }
+    #razoes img {
+        width: 70%;
+        height: auto;
+    }
 }

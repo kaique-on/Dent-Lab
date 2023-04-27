@@ -46,4 +46,11 @@
   .estrelas {
     width: 70%;
   }
+  .carousel-cell h1 {
+    font-weight: 500;
+    font-size: 24px;
+    width: 70%;
+    text-align: center;
+    margin-top: 5px;
+  }
 }

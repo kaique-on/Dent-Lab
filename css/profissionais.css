@@ -1,5 +1,5 @@
 #profissionais {
-    width: 1808px;
+    width: 100%;
     margin: auto;
     display: flex;
     background-color: #eff8ff;
@@ -11,7 +11,6 @@
 }
 #profissionais img {
     width: 400px;
-    margin: 0px 113px
 }
 #profissionais h1 {
     font-weight: 500;
@@ -47,5 +46,8 @@
     }
     #profissionais img {
         width: 300px;
+        padding: 0px;
+        margin: auto;
+        
     }
 }

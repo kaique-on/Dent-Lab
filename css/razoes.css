@@ -1,7 +1,7 @@
 #razoes {
     margin: 180px auto auto auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1585px;
 }
 #razoes img {

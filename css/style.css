@@ -9,6 +9,7 @@
 @import "comentarios.css";
 @import "carousel.css";
 @import "footer.css";
+@import "formulario__login.css";
 
 * {
     margin: 0;

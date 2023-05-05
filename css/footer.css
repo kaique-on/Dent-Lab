@@ -6,10 +6,45 @@ footer {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 1fr);
 }
-#info {
-    grid-column: 2/6;
+#info{
+    grid-column: 3/6;
     grid-row: 2/3;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    color: white;
+}
+#navegacao{
+    grid-column: 6/8;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#footer__servicos {
+    grid-column: 9/11;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#linha{
+    border: none;
+    grid-row: 4;
+    grid-column: 2/12;
+    border-top: 2px solid white;
+    width: 100%;
+}
+
+@media (max-width: 900px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 60px;
+    }
+    .servicos, .navegacao, .linha{
+        display: none;
+    }
 }

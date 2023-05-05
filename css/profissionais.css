@@ -1,26 +1,31 @@
-#profissionais {
+#secao__profissionais {
     width: 100%;
-    margin: auto;
-    display: flex;
     background-color: #eff8ff;
-    align-items: center;
+    display: flex;
     justify-content: center;
 }
+
+#profissionais {
+    width: 1075px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 #profissionais div {
-    margin: 0px 113px
 }
 #profissionais img {
-    width: 400px;
+    width: 100%;
+    height: 512px;
 }
 #profissionais h1 {
     font-weight: 500;
-    margin-bottom: 48px;
     font-size: 48px;
+    width: 100%;
 }
 #profissionais h3 {
     font-size: 18px;
     font-weight: 300;
-    width: 675px;
+    width: 100%;
     font-size: 20px;
 }
 
@@ -46,6 +51,7 @@
     }
     #profissionais img {
         width: 300px;
+        height: auto;
         padding: 0px;
         margin: auto;
         

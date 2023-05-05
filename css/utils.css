@@ -28,3 +28,21 @@
   0px 0px 6px rgba(0, 0, 0, 0.8);
   text-align: center;
 }
+.textoFooterTitulo{
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+.textoFooter{
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+}
+#logoTexto {
+    color: black;
+    font-size: 24px;
+}
+#textoLogoFooter{
+    color: white;
+    font-size: 24px;
+}

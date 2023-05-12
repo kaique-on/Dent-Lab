@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dent Lab - Login</title>
+    <title>Dent Lab - Cadastrar</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./images/logo.svg">
     <script src="https://kit.fontawesome.com/6cde816448.js" crossorigin="anonymous"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="./js/firebase-config.js" defer></script>
+    <script src="./js/register.js" defer></script>
 </head>
 <body>
     <nav>
@@ -21,7 +26,7 @@
         </a>
         <div class="menu">
             <p><a href="./index.html">HOME</a></p>
-            <p><a class="login" href="./cadastro.html">CADASTRAR-SE</p></a>
+            <p><a class="login" href="./login.html">LOGIN</p></a>
             </div>
     </nav>
         <section class="are__formulario">
@@ -30,11 +35,12 @@
                     <h2 class="titulo">Olá! 👋 Tudo bem?</h2>
                     <p class="texto__form">Entre com seu e-mail e senha no nosso sistema.</p>
                     <label for="email">E-mail</label>
-                    <input type="email" placeholder="E-mail" required>
+                    <input id="email" type="email" placeholder="E-mail" required>
                     <label for="password">Senha</label>
-                    <input type="password" placeholder="Senha" required>
-                    <a href="" class="esqueceu__senha">Esqueci minha senha</a>
-                    <button>ENTRAR</button>
+                    <input id="passowrd" type="password" placeholder="Senha" required>
+                    <label for="password">Confirmar senha</label>
+                    <input id="confirmPassword" type="password" placeholder="Confirmar senha" required>
+                    <button id="registerButton">CADASTRAR-SE</button>
                 </form>
         </section>
         

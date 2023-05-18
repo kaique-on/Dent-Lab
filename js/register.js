@@ -17,6 +17,8 @@ async function registerUser(email, password, event){ // async determina que a fu
             }
         );
 
+        alert("Cadastro realizado com sucesso")
+
     }   catch (error) { //pega o erro
         console.log(error); // informa o erro
     }

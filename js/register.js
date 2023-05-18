@@ -28,11 +28,11 @@ document.getElementById("registerButton").addEventListener("click", async(event)
     // pega os dados do form
     const email = document.getElementById("email").value; // cria uma constante email que pega o id "email" e armazena seu valor
     const password = document.getElementById("password").value; // cria uma constante email que pega o id "email" e armazena seu valor
-    const confirmPassword = document.getElementById("confirmPassoword").value; // cria uma constante email que pega o id "email" e armazena seu valor
+    const confirmPassword = document.getElementById("confirmPassword").value; // cria uma constante email que pega o id "email" e armazena seu valor
 
     if(password !== confirmPassword){ // valida se são iguais
         alert("As senhas inseridas não são iguais");
     }
     // insere os dados na função
-    registerUser(email, password);
+    registerUser(email, password, event);
 });
